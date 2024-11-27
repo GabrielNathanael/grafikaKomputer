@@ -55,9 +55,7 @@ for _ in range(num_lines):
     all_x_points.extend(x_points)
     all_y_points.extend(y_points)
 
-# Mengukur waktu selesai
-end_time = time.time()
-execution_time = end_time - start_time
+
 
 # Visualisasi sebagian titik
 sample_size = 1000  # Menggunakan sampel untuk visualisasi
